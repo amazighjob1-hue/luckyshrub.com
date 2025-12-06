@@ -231,7 +231,7 @@ footer img {
 
     
     .plants-gallery {
-        flex-direction: wrap;
+        flex-direction: column;
         align-items: center;
     }
 
