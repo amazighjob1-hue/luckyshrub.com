@@ -184,8 +184,13 @@ footer img {
     height: 80px;
     margin-bottom: 10px;
 }
-
 @media (max-width: 768px) {
+    .logo, nav, nav ul {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+}
 
     .logo img {
         width: 50px;
