@@ -11,39 +11,33 @@ body {
 }
 
 header {
-    background: white;       /* fond blanc */
-    color: #2e7d32;          /* texte vert */
+    background: white;
+    color: #2e7d32;
     padding: 15px 0;
 }
 
 .header-container {
-    max-width: 1200px;       /* largeur max pour desktop */
-    width: 100%;             /* responsive pour mobile */
+    width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    flex-direction: column;  /* logo au-dessus de la nav */
+    flex-direction: column;
     align-items: center;
     gap: 10px;
 }
 
-/* Logo */
 .logo img {
-    height: 100px;           /* desktop */
-    display: block;          /* évite les espaces invisibles */
+    height: 100px;
 }
 
-/* Navigation */
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
-    padding: 0;
-    margin: 0;
 }
 
 nav ul li a {
-    color: #2e7d32;          /* liens verts */
+    color: #2e7d32;
     text-decoration: none;
     font-weight: bold;
 }
@@ -140,6 +134,7 @@ h2 {
 
 .plant-item img {
     width: 100%;
+    height: 300px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -189,82 +184,4 @@ footer img {
     height: 80px;
     margin-bottom: 10px;
 }
-
-  
-  @media (max-width: 768px) {
-
-    /* Logo plus petit sur mobile */
-    .logo img {
-        height: 60px;
-    }
-
-    /* Nav verticale sur mobile */
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-    }
-
-    nav ul li a {
-        font-size: 1rem;
-    }
-}
-    
-    .hero {
-        height: auto;
-        padding: 60px 20px;
-    }
-
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-
-   
-    .service-items {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .service {
-        width: 100%;
-        max-width: 350px;
-    }
-
-    
-    .plants-gallery {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .plant-item {
-        width: 70%;
-        max-width: 330px;
-    }
-
-    .plant-item img {
-        height: 180px; 
-    }
-
-    
-    .about article {
-        padding: 0 10px;
-        font-size: 1rem;
-    }
-
-    
-    .contact form {
-        width: 100%;
-        padding: 0 10px;
-    }
-
-    
-    footer img {
-        height: 40px;
-    }
-}
-
 
