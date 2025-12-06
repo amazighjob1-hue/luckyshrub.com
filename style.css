@@ -185,9 +185,23 @@ footer img {
     margin-bottom: 10px;
 }
 @media (max-width: 768px) {
-    .logo img {
-        height: 60px;
-    }
+    
+  body {
+    overflow-x: hidden;
+  }
+  .header-container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  nav ul {
+    width: 100%;
+  }
+}
 
     /* Nav verticale sur mobile */
     nav ul {
