@@ -271,3 +271,12 @@ footer img {
         height: 40px;
     }
 }
+@media (max-width: 768px) {
+    .logo, nav, .nav-links {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        height: auto !important;
+        max-height: 200px !important;
+    }
+}
